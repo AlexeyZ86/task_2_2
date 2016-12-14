@@ -1,0 +1,8 @@
+package lesson_2.q_2;
+
+public class Adress {
+    String city;
+    String country;
+
+    public Adress() {}
+}
