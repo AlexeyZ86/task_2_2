@@ -1,0 +1,9 @@
+package lesson_2.q_2;
+public class Person {
+    String name;
+    String surname;
+    String[] phones;
+    Address address;
+
+    public Person() {}
+}
