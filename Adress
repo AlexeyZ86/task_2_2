@@ -1,8 +1,8 @@
 package lesson_2.q_2;
 
-public class Adress {
+public class Address {
     String city;
     String country;
 
-    public Adress() {}
+    public Address() {}
 }
