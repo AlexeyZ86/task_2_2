@@ -17,10 +17,10 @@ public class Main {
             Gson gson = new GsonBuilder().create();
             Person person = gson.fromJson(result, Person.class);
 
-            System.out.println(person.name);
-            System.out.println(person.surname);
-            System.out.println(person.address.city);
-            System.out.println(person.address.country);
+            System.out.println(person.getName());
+            System.out.println(person.getSurname());
+            System.out.println(person.getAddress().getCity());
+            System.out.println(person.getAddress().getCountry());
 
 
         }
